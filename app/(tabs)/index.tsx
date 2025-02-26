@@ -3,6 +3,7 @@ import { Image, StyleSheet } from 'react-native';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { styles } from './indexStyle';
 
 export default function HomeScreen() {
   return (
@@ -23,20 +24,3 @@ export default function HomeScreen() {
     </ParallaxScrollView>
   );
 }
-
-const styles = StyleSheet.create({
-  headerContainer: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingVertical: 20,
-    backgroundColor: 'transparent', // Mantém a cor definida em headerBackgroundColor
-  },
-  reactLogo: {
-    resizeMode: 'contain',
-    alignSelf: 'center',
-    height: 180,
-  },
-  caption: {
-    backgroundColor:'#E5BF3C',
-  },
-});
