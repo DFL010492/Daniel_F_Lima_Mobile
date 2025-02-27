@@ -15,4 +15,10 @@ export const styles = StyleSheet.create({
       caption: {
         backgroundColor:'#E5BF3C',
       },
+      informacao: {
+        backgroundColor: '#E5BF3C',
+        padding: 20,
+        margin: 20,
+        borderRadius: 20,
+      },
 });

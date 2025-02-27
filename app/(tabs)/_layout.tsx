@@ -27,24 +27,11 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'BAT',
+          title: 'BAT-FAMILY',
           tabBarIcon: ({ color, size }) => (
             <Image
               source={require('@/assets/images/bat-logo.png')}
               style={{ width: size, height: size, tintColor: color }}
-              resizeMode="contain"
-            />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="explore"
-        options={{
-          title: 'LANTERNA',
-          tabBarIcon: ({ color }) => (
-            <Image
-              source={require('@/assets/images/symbol-on.png')}
-              style={{ width: 28, height: 28, tintColor: color }}
               resizeMode="contain"
             />
           ),
