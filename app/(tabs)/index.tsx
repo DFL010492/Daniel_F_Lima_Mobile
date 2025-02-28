@@ -88,14 +88,14 @@ export default function HomeScreen() {
             <ThemedText style={{ fontFamily: 'BlackOps', color: 'black', padding: 5, textAlign: 'center', fontSize: 20 }}>
               {character.name}
             </ThemedText>
-            <Image source={character.image} style={styles.reactLogo} />
-          </TouchableOpacity>
+            <Image source={character.image} style={styles.reactLogo} /> 
           {visibleInfo[character.name] &&
             character.details.map((detail, index) => (
               <ThemedText key={index} style={{ fontFamily: 'BlackOps', color: 'black', padding: 5 }}>
                 {detail}
               </ThemedText>
             ))}
+          </TouchableOpacity>
         </ThemedView>
       ))}
     </ParallaxScrollView>
